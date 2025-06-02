@@ -127,7 +127,7 @@ export default function StoryEditor({ story, setStory }) {
   };
 
   return (
-    <div style={{ display: "flex", height: "100vh", fontFamily: "Arial, sans-serif" }}>
+    <div style={{ display: "flex", height: "100vh", fontFamily: "Arial, sans-serif" }} className="story-editor">
       {/* Sidebar */}
       <div
         style={{
@@ -136,6 +136,7 @@ export default function StoryEditor({ story, setStory }) {
           padding: 20,
           overflowY: "auto",
         }}
+        className="sidebar"
       >
         <h2>Scenes</h2>
         <button onClick={addScene} style={{ marginBottom: 15 }}>
@@ -186,7 +187,7 @@ export default function StoryEditor({ story, setStory }) {
       </div>
 
       {/* Main editor */}
-      <div style={{ flex: 1, padding: 20, overflowY: "auto" }}>
+      <div style={{ flex: 1, padding: 20, overflowY: "auto" }} className="main">
         <h2>Editing Scene: {currentSceneKey}</h2>
         <div>
           <label>
