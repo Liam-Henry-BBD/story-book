@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/story-book/static/css/main.e6c13ad2.css",
+    "main.js": "/story-book/static/js/main.dbbb6a32.js",
+    "index.html": "/story-book/index.html",
+    "main.e6c13ad2.css.map": "/story-book/static/css/main.e6c13ad2.css.map",
+    "main.dbbb6a32.js.map": "/story-book/static/js/main.dbbb6a32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.dbbb6a32.js"
+  ]
+}
